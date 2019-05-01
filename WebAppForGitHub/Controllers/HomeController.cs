@@ -15,7 +15,7 @@ namespace WebAppForGitHub.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "Your application description page.";
+			ViewBag.Message = "Your application description page changed.";
 
 			return View();
 		}
